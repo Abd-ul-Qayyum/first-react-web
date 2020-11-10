@@ -6,7 +6,8 @@ function App() {
     return ( <
         div className = "App" >
         <
-        Dinner / >
+        Dinner dishName = "karahi"
+        sweetDish = "lassi" / >
         <
         /div>
     );
