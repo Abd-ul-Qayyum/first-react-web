@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploying using surge
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
@@ -39,7 +39,7 @@ jobs:
         run: yarn build
 
       - name: installinng surge
-        run: npm i -g surge
+        run: npm install -g surge
         
       - name: deploying on surge
         run: surge ./build https://aqweb.surge.sh --token ${{secrets.SURGE_TOKEN}}
