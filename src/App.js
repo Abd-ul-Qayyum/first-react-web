@@ -9,6 +9,12 @@ function App() {
         Dinner dishName = "karahi"
         sweetDish = "lassi" / >
         <
+        Dinner dishName = "biryani"
+        sweetDish = "custored" / >
+        <
+        Dinner dishName = "kukar"
+        sweetDish = "kheer" / >
+        <
         /div>
     );
 }
